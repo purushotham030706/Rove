@@ -1,4 +1,4 @@
-# ROVE 🚗🕹️
+# ROVE 
 > **Real-World Automotive Discovery & Archive**
 > *The Retro Automotive Field Collector*
 
@@ -6,7 +6,7 @@ ROVE is a mobile-first real-world automotive discovery and collection applicatio
 
 ---
 
-## 🎨 Visual Identity & Signature Contrast
+##  Visual Identity & Signature Contrast
 
 ROVE is built upon a signature aesthetic contrast:
 **REAL-WORLD CAR PHOTOGRAPHS + BESPOKE 8-BIT RETRO AUTOMOTIVE ART**
@@ -19,7 +19,7 @@ ROVE is built upon a signature aesthetic contrast:
 
 ---
 
-## ⚡ Core Loop
+##  Core Loop
 
 ```
 OPEN ROVE
@@ -47,7 +47,7 @@ EARN XP & UNLOCK ACHIEVEMENTS (Street Scout, Kanjo Scout, Blue Spark)
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Layer | Technologies |
 |---|---|
@@ -59,7 +59,7 @@ EARN XP & UNLOCK ACHIEVEMENTS (Street Scout, Kanjo Scout, Blue Spark)
 
 ---
 
-## 📂 Project Architecture & Directory Layout
+##  Project Architecture & Directory Layout
 
 ```
 Rove/
@@ -130,7 +130,7 @@ Rove/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Running the FastAPI Backend
 
@@ -215,7 +215,7 @@ flutter analyze
 
 ---
 
-## 🏆 Rarity & Progression System
+##  Rarity & Progression System
 
 ### Deterministic Rarity Factors
 Rarity is computed dynamically by `RarityCalculator` in `rarity_service.py` using authentic automotive parameters:
@@ -247,7 +247,7 @@ Rarity is computed dynamically by `RarityCalculator` in `rarity_service.py` usin
 
 ---
 
-## 🗺️ Geospatial & Privacy Safeguards
+##  Geospatial & Privacy Safeguards
 
 - Every encounter stores timestamp, approximate city, and optional latitude/longitude.
 - **Privacy Mode**: Exact street coordinates are never publicly exposed. The app uses fuzzy sector centering for locations and discovery maps.
@@ -255,7 +255,7 @@ Rarity is computed dynamically by `RarityCalculator` in `rarity_service.py` usin
 
 ---
 
-## 🚢 Production Deployment
+##  Production Deployment
 
 ### Database (PostgreSQL / Supabase)
 1. In `backend/app/core/config.py` or `.env`, set:
