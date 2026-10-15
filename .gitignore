@@ -1,0 +1,23 @@
+# Python / Backend
+venv_backend/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.db
+*.sqlite3
+
+# Flutter / Dart
+rove_app/.dart_tool/
+rove_app/.flutter-plugins
+rove_app/.flutter-plugins-dependencies
+rove_app/.packages
+rove_app/build/
+rove_app/.pub/
+rove_app/lib/generated_plugin_registrant.dart
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.lock
